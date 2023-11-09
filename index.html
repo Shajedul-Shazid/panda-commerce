@@ -9,23 +9,32 @@
 </head>
 <body>
 
-   <div class="container">
-    <ul class="nav bg-light">      
-        <a class="nav-link" href="#shoes"><img src="images/logo.png" alt=""></a>      
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#shoes">Shoes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#backpack">Backpack</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#subscribe">Subscribe</a>
-        </li>        
-      </ul>
-   </div>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+              <img src="images/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shoes">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#backpack">Backpack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#subscribe">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+  </div>
 
    <div class="container">
     <div id="carouselExample" class="carousel slide orange-bg">
@@ -94,7 +103,137 @@
       </div>
    </div>
 
-   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+   <div class="container categories">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+           <div class="cat1 d-flex flex-row justify-content-between align-items-center">
+            <h1>Watch</h1>
+            <img src="images/categories/watch.png" alt="">
+           </div>
+        </div>
+        <div class="col-md-4">
+           <div class="cat2 d-flex flex-row justify-content-between align-items-center">
+            <h1>Bag</h1>
+            <img src="images/categories/bag.png" alt="">
+           </div>
+        </div>
+        <div class="col-md-4">
+           <div class="cat3 d-flex flex-row justify-content-between align-items-center">
+            <h1>Shoes</h1>
+            <img src="images/categories/shoes.png" alt="">
+           </div>
+        </div>
+    </div>
+   </div>
+
+    <!-- shoes  -->
+
+    <div class="container">
+        <h1>Shoes</h1>
+        <div class="card-group">
+            
+            <div class="card card-right">
+        
+                <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Supply 350</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.
+                  </p>
+                 <h1>$120 (8h 0m)</h1>
+                 <button class="buy-now-button" type="button">Buy Now >></button>
+                </div>
+               
+            </div>
+            
+            <div class="card card-right">
+              <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike 360</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                </p>
+               <h1>$320 (21h 20m)</h1>
+               <button class="buy-now-button" type="button">Buy Now>></button>
+              </div>
+            </div>
+           
+              <div class="card">
+                <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Red Airmax</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+                  </p>
+                  <button class="buy-now-button" type="button">Buy Now>></button>
+                </div>
+              </div>
+            
+          </div>
+
+    </div>
+
+   
+    <!-- Backpack -->
+
+    <div class="container">
+      <h1>Backpack</h1>
+      <div class="card-group">
+          
+          <div class="card card-right">
+      
+              <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Red Laltu Bag</h5>
+                <h1>$120 (8h 0m)</h1>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                </p>               
+               <button class="buy-now-button" type="button">Buy Now >></button>
+              </div>             
+          </div>
+          
+          <div class="card card-right">
+            <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Blue Niltu Bag</h5>
+              <h1>$320 (21h 20m)</h1>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+              </p>             
+             <button class="buy-now-button" type="button">Buy Now>></button>
+            </div>
+          </div>
+         
+            <div class="card">
+              <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Black Kaltu Bag</h5>
+                <h1>$169 (11h 17m)</h1>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                </p>
+                <button class="buy-now-button" type="button">Buy Now>></button>
+              </div>
+            </div>          
+        </div>
+  </div>
+
+  <!-- get in touch section -->
+
+        <div class="container d-flex align-items-center justify-content-center orange-bg" id="subscribe">          
+             
+              <div class="get-in-touch">
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p> Get updates on sales, specials and more </p>
+                <input class="form-control" type="text">
+                <button class="buy-now-button" type="button">SUBMIT</button>
+              </div>
+          
+        </div>
+  
+
+
+  <footer>
+    <p>©2023. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

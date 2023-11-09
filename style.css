@@ -9,13 +9,13 @@
     border: none;
  }
 
- .carousel-item {
-    padding: 20px 40px;     
- }
-
 .orange-bg {
     background-color: #fceae8;
     border-radius: 10px;
+}
+
+.carousel-item {
+   padding: 20px 40px;
 }
 
  .price {
@@ -26,3 +26,49 @@
     font-size: 2.5rem;
  }
 
+ .categories h1 {
+    color: #fff;
+ }
+
+ .categories img {
+    width: 100px;
+ }
+
+ .cat1, .cat2, .cat3{
+   padding: 10px 30px;
+   border-radius: 10px;
+ }
+
+ .cat1{
+    background-color: orange;    
+    
+ }
+ .cat2{
+    background-color: orchid;
+    
+ }
+ .cat3{
+    background-color: blue;
+     
+ }
+
+ /* shoes */
+
+ .card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    
+ }
+
+ .card-right {
+   margin-right: 20px;
+ }
+ 
+#subscribe{
+   height: 300px;
+}
+
+ footer{
+   text-align: center;
+ }
